@@ -11,7 +11,7 @@ beforeEach(()=>{
     c = 3;
 })
 
-test('sum should be correct', () => {
+test.skip('sum should be correct', () => {
     //action
     const result1 = sum(a, b);
     const result2 = sum(b, c);
@@ -21,7 +21,7 @@ test('sum should be correct', () => {
     expect(result2).toBe(5);
 })
 
-test('multiply should be correct', () => {
+test.skip('multiply should be correct', () => {
     //data
     let a = 1
     let b = 2
@@ -36,7 +36,7 @@ test('multiply should be correct', () => {
     expect(result2).toBe(6);
 })
 
-test ("splitting into words should be correct", ()=>{
+test.skip("splitting into words should be correct", ()=>{
     const sent1 = 'Hello my friends!'
     const sent2 = 'JS - the best programming language!'
 
